@@ -1,4 +1,4 @@
-# Duck vs Chicken Image Classification using Transfer Learning
+# Advanced Avian Species Differentiation Utilizing Transfer Learning Techniques
 
 ## Project Overview
 
@@ -22,8 +22,8 @@ This project demonstrates the use of transfer learning to classify images of duc
 
 ### Data Collection
 
-1. Download approximately 400 images each of ducks and chickens from the internet.
-2. Organize the images into two directories: `data/ducks` and `data/chickens`.
+1. Download approximately 350 images each of ducks and chickens from the internet.
+2. Organize the images into two directories: `chicken-images` and `duck-images`.
 
 ### Running the Notebook
 
@@ -39,8 +39,7 @@ The final output of the notebook is a classification report that evaluates the p
 
 ## Project Structure
 - **data/**: This directory contains the image data for the project.
-  - **ducks/**: Contains images of ducks.
-  - **chickens/**: Contains images of chickens.
-- **notebook/**: This directory contains the Jupyter Notebook for the project.
-  - **Duck_vs_Chicken_Classification.ipynb**: The main notebook that includes the data preprocessing, model training, and evaluation.
+  - **duck-images/**: Contains images of ducks.
+  - **chicken-images/**: Contains images of chickens.
+- **Code.py**: The main python file that includes the data preprocessing, model training, and evaluation.
 
