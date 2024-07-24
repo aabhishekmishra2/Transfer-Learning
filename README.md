@@ -16,12 +16,13 @@ This project demonstrates the use of transfer learning to classify images of duc
 ### Prerequisites
 
 - Google Colab account
+- Use Kaggle or Colab to run this code with enabling GPU
 - Basic knowledge of Python and deep learning
-- Libraries: TensorFlow, Keras, NumPy, Pandas, Matplotlib
+- Libraries: TensorFlow, Pytorch Keras, NumPy, Pandas, Matplotlib
 
 ### Data Collection
 
-1. Download approximately 100 images each of ducks and chickens from the internet.
+1. Download approximately 400 images each of ducks and chickens from the internet.
 2. Organize the images into two directories: `data/ducks` and `data/chickens`.
 
 ### Running the Notebook
@@ -33,6 +34,8 @@ This project demonstrates the use of transfer learning to classify images of duc
 ### Results
 
 The final output of the notebook is a classification report that evaluates the performance of the fine-tuned model, including precision, recall, and F1-score.
+
+![download](https://github.com/user-attachments/assets/1c50d1d7-19d9-4405-a746-1075157de274)
 
 ## Project Structure
 - **data/**: This directory contains the image data for the project.
